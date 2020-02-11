@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { MiLibreriaModule } from 'mi-libreria';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MiLibreriaModule
   ],
   providers: [],
   bootstrap: [AppComponent]

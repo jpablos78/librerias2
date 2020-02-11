@@ -6,4 +6,8 @@ import { Injectable } from '@angular/core';
 export class MiLibreriaService {
 
   constructor() { }
+
+  getMensaje() {
+    return 'Hola mundo desde services ...';
+  }
 }
